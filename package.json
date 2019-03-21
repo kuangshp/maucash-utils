@@ -1,0 +1,20 @@
+{
+  "name": "maucash-utils",
+  "version": "0.0.1",
+  "description": "封装一些常用的工具方法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "maucash",
+    "maucash-utils",
+    "utils",
+    "javascript"
+  ],
+  "homepage": "https://github.com/kuangshp/maucash-utils",
+  "author": "kuangshp@126.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
