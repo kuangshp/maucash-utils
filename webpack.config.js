@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './index.js',
+  entry: './test.js',
   output: {
     filename: 'maucash-utils.js',
     path: path.join(__dirname, 'dist')
@@ -15,10 +15,10 @@ module.exports = {
   },
   module: {}, // 模块配置
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   template: './index.html',
-    //   title: 'maucash-utils测试',
-    // })
+    new HtmlWebpackPlugin({
+      template: './index.html',
+      title: 'maucash-utils测试',
+    })
   ], // 插件的配置
   mode: 'development',
   resolve: {}, // 配置解析
