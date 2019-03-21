@@ -4,7 +4,8 @@
   "description": "封装一些常用的工具方法",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [
     "maucash",
@@ -28,7 +29,12 @@
     "@babel/runtime": "^7.3.4",
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "clean-webpack-plugin": "^2.0.1",
     "editorconfig": "^0.15.3",
-    "eslint": "^5.15.1"
+    "eslint": "^5.15.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   }
 }
