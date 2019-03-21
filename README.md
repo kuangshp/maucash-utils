@@ -11,4 +11,29 @@
   import {} from 'maucash-utils'
   ```
 
-### 三、数据类型的判断
+### 二、数据类型的判断
+
+* 1、`isString`
+* 2、`isObject`
+* 3、`isRegExp`
+* 4、`isValidArrayIndex`
+
+### 三、从对象中提取数据
+
+* 1、`objectGetVal`
+* 2、使用方式
+
+  ```js
+  let dataJson = {
+    'aa': {
+      'bb': {
+        'cc': {
+          'dd': {
+            'ee': '你好'
+          }
+        }
+      }
+    }
+  }
+  console.log(objectGetVal(dataJson, 'aa.bb.cc.dd.ee'))
+  ```
