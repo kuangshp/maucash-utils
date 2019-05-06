@@ -9,6 +9,8 @@
 
   ```js
   import {} from 'maucash-utils'
+  // 或者
+  const maucast = require('maucash-utils');
   ```
 
 ### 二、数据类型的判断
@@ -37,3 +39,16 @@
   }
   console.log(objectGetVal(dataJson, 'aa.bb.cc.dd.ee'))
   ```
+
+### 四、对象的比较的方法
+
+```js
+/**
+ * @Description: 对象比较的方法
+ * @param {obj1} 
+ * @param {obj2} 
+ * @param {isDeep} 默认是浅比较
+ * @return: boolean
+ */
+export const objectEqual = (obj1, obj2, isDeep = false) => {}
+```
