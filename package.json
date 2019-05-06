@@ -2,10 +2,9 @@
   "name": "maucash-utils",
   "version": "0.0.1",
   "description": "封装一些常用的工具方法",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack"
+    "build": "babel lib --out-dir dist"
   },
   "keywords": [
     "maucash",
@@ -20,6 +19,7 @@
     "@babel/polyfill": "^7.2.5"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-proposal-decorators": "^7.3.0",
@@ -29,12 +29,7 @@
     "@babel/runtime": "^7.3.4",
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "clean-webpack-plugin": "^2.0.1",
     "editorconfig": "^0.15.3",
-    "eslint": "^5.15.1",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "eslint": "^5.15.1"
   }
 }
