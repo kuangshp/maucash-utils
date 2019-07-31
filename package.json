@@ -2,9 +2,9 @@
   "name": "maucash-utils",
   "version": "0.0.3",
   "description": "封装一些常用的工具方法",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "babel lib --out-dir dist"
+    "build": "tsc"
   },
   "keywords": [
     "maucash",
@@ -15,21 +15,10 @@
   "homepage": "https://github.com/kuangshp/maucash-utils",
   "author": "kuangshp@126.com",
   "license": "MIT",
-  "dependencies": {
-    "@babel/polyfill": "^7.2.5"
-  },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.3.4",
-    "@babel/plugin-proposal-class-properties": "^7.3.4",
-    "@babel/plugin-proposal-decorators": "^7.3.0",
-    "@babel/plugin-transform-runtime": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/register": "^7.0.0",
-    "@babel/runtime": "^7.3.4",
-    "babel-eslint": "^10.0.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "editorconfig": "^0.15.3",
-    "eslint": "^5.15.1"
-  }
+    "editorconfig": "^0.15.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
